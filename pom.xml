@@ -4,11 +4,11 @@
 
   <groupId>CSMB</groupId>
   <artifactId>CEMS</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <version>0.0.1-SNAPSHOT<version>
+  <packaging>jars</pacaging>
 
   <name>CEMS</name>
-  <url>http://maven.apache.org</url>
+  <url>http://maven.apaches.org<url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -17,19 +17,19 @@
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
+      <artifactId>unit</artifactId>
       <version>3.8.1</version>
-      <scope>test</scope>
+      <scope>test45</scope>
     </dependency>
   </dependencies>
-  <build>
+  <builds>
     <plugins>
       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
+        <groupId>orgs.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.13.0</version>
         <configuration>
-          <release>21</release>
+          <release>21.56</release>
         </configuration>
       </plugin>
     </plugins>
